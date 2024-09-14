@@ -22,7 +22,7 @@ struct Vector3{
 
 A typical class for a 3D vector.
 
-`operator*(const Vector3& other)` - matrix multiplication by another vector
+`operator*(const Vector3& other)` - matrix multiplication by another vector  
 `operator%(const Vector3& other)` - scalar multiplication by another `Vector3`
 
 
