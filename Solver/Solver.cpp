@@ -20,7 +20,7 @@ Solver::RecordVec Solver::solve(const Math::Polyline& polyline, const Math::Vect
         Math::Polyline::Segment seg{nodes[i], nodes[i + 1]};
         auto res = near_point_on_segment(point, seg);
         if (std::abs(res.second - min_dist) < 1e-7)
-            result.push_back({i, res.first});
+            result.emplace_back(i, res.first);
     }
 
     return result;
