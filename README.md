@@ -5,7 +5,7 @@ searches the nearest point on the polyline to any given point. In case of multip
 output all of them.
 
 A detailed description is available [here](docs/task.pdf).   
-A detailed documentation is available [here](docs/index.md). 
+A detailed documentation is available [here](docs/README.md). 
 
 This instruction was tested on Windows11, it could slightly differ for other systems.
 
